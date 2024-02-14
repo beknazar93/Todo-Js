@@ -1,0 +1,47 @@
+.todo{
+    width: 300px;
+    background-color: bisque;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &__list_ul{  
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-left: -50px;
+
+    }
+    &__list_li{
+        width: 250px;
+       display: flex;
+        justify-content: space-between;
+       &_delete{
+        cursor: pointer;
+       }
+        
+    }
+}
+.todo__li_true{
+    cursor: pointer;
+}
+.active{
+    color: green;
+}
+.noactive{
+    text-decoration: line-through;
+}
+.todo__li_false{
+    cursor: pointer;
+}
+
+.costm{
+    display: flex;
+}
+.todo__li_delete{
+    cursor: pointer;
+}
